@@ -1,7 +1,5 @@
-# The Book of Ruby - http://www.sapphiresteel.com
-
-localvar = "hello"
-$globalvar = "goodbye" 
+localvar = "Olá"
+$globalvar = "tchau" 
 
 def amethod
 	localvar = 10
@@ -11,7 +9,7 @@ end
 
 def anotherMethod
 	localvar = 500
-	$globalvar = "bonjour"
+	$globalvar = "Hola"
 	puts( localvar )
 	puts( $globalvar )
 end

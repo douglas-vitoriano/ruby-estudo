@@ -1,18 +1,16 @@
-# The Book of Ruby - http://www.sapphiresteel.com
-# Show string representations of various objects
-# using the to_s method
+#Mostra representações de strings de vários objetos
+# usando o método to_s
 
 class Treasure
       def initialize( aName, aDescription )
         @name         = aName
         @description  = aDescription
       end
-# This time we won't override to_s so the Treasure object
-# will use the default to_s method...
+# Desta vez não substituiremos to_s então o objeto Treasure
+# usará o método to_s padrão...
 end
 
-
-t = Treasure.new( "Sword", "A lovely Elvish weapon" )
+t = Treasure.new( "Espada", "uma adorável arma élfica" )
 puts("   Class.to_s")
 puts(Class.to_s)
 puts("   Object.to_s")
